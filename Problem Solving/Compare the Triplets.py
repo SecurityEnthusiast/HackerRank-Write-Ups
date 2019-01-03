@@ -30,4 +30,4 @@ if __name__ == '__main__':
     fptr.write(' '.join(map(str, result)))
     fptr.write('\n')
 
-    fptr.close()y
+    fptr.close()
