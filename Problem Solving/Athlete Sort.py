@@ -1,12 +1,16 @@
 #!/bin/python
+
+# I solved it with many basically tactics, If someone doesn't like it, Please feedback me your way
+
 from __future__ import print_function
+import time
 
 import math
 import os
 import random
 import re
 import sys
-import time
+
 
 
 
@@ -54,4 +58,3 @@ if __name__ == '__main__':
     k = int(raw_input())
 
     matrixsolver(arr,k,n,m)
-
