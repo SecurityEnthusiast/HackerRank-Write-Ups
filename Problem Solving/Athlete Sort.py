@@ -1,6 +1,6 @@
 #!/bin/python
 
-# I solved it with many basically tactics, If someone doesn't like it, Please feedback me your way
+# I solved it with basically tactics, If someone doesn't like it, Please feedback me your way
 
 from __future__ import print_function
 import time
