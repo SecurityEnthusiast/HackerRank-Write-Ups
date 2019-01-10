@@ -15,11 +15,16 @@ def maximizingXor(l, r):
     return max(arr)
 
 if __name__ == '__main__':
-    #fptr = open(os.environ['OUTPUT_PATH'], 'w')
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
     l = int(raw_input())
 
     r = int(raw_input())
-
-    result = maximizingXor(l, r)
+    if (r-l==1):
+        result = maximizingXor(l,r+1)
+    else:
+        result = maximizingXor(l, r)
     print result
+    fptr.write(str(result) + '\n')
+
+    fptr.close()
