@@ -33,8 +33,6 @@ def encryption(s):
                 string = string + str(arr1[l+i*ceil])
         print(string,end=' ')
 
-
-
     return 1
 
 if __name__ == '__main__':
